@@ -1,0 +1,273 @@
+body{
+  margin:0;
+  
+  background-color: gray;
+  overflow-x: hidden;
+  
+}
+
+@media screen and (max-width: 720px){
+  body{
+    background-color: gray;
+    overflow-x: hidden;
+    margin-top: none;
+  }
+  .upper{
+    position:absolute;
+    top:5rem;
+    height: 15rem;
+    width:100vw;
+    background-color: pink;
+    font-size: 2rem;
+  }
+
+  #Hello{
+    height:90%;
+    width: 90%;
+  }
+  
+  #HH{
+    position: absolute;
+    width:70%;
+    height: 200px;
+    left: 50%;
+    top: 15rem;
+    transform: translate(-50%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .16rem solid black;
+    border-radius: 16px;
+    box-shadow: .1rem .2rem 1rem black;
+  }
+  .Quantity{
+    position: relative;
+    height: 1.5rem;
+    width: 8rem;
+    top: 23rem;
+    background-color: white;
+    left: 35%;
+    padding: .3rem 0;
+    font-size: 1.2rem;
+    margin: 0px;
+    overflow: hidden;
+    
+  }
+  .btplus{
+    position: relative;
+    height: 3rem;
+    top:-.7em;
+    padding: .4rem;
+    font-size: 1rem;
+    border: 1px solid black;
+  }
+  .btminus{
+    position: relative;
+    height: 3rem;
+    top:-6.9rem;
+    left: 6.5rem;
+    padding: .4rem;
+    font-size: 1rem;
+    border: 1px solid black;
+  }  
+  .Qcounter{
+    position: relative;
+    top: -4rem;
+    padding-top:1rem;
+    left: 1.5rem;
+    width:5rem;
+    height: 2.2rem;
+    margin: 0px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .UV{
+    position: absolute;
+    top: 32rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    background-color: rgb(205, 201, 172);
+    left: 50%;
+    transform: translate(-50%);
+    padding: .5rem 6.4rem;
+    white-space: nowrap;
+    border-radius: 16px;
+    border: px solid black;
+    box-shadow: 0 2px 5px black;
+  }
+  .PM{
+    position: absolute;
+    top: 36rem;
+    width: 13.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(205, 201, 172);
+    padding: .5rem 3.2rem;
+    white-space: nowrap;
+    border-radius: 16px;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 5px black;
+  }
+
+  .PO{
+    position: absolute;
+    top: 40rem;
+    left: 50%;
+    font-size:1.2rem;
+    padding:  .5rem 6.7rem;
+    transform: translate(-50%);
+    background-color: rgb(205, 201, 172);
+    border-radius: 16px;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px black;
+  }
+  .bk{
+    height: 100%;
+    width: 100%;
+  }
+  .tlt{
+    position: absolute;
+    top: 12rem;
+    left: 4rem;
+    height: 2rem;
+    width: 9rem;
+    background-color: white;
+    z-index: 1;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-weight: bolder;
+  }
+
+  .ekis{
+    position: absolute;
+    left: 83vw;
+    top: 32rem;
+    height: 1.5rem;
+    width: 2rem;
+    z-index: 2;
+    display: none;
+  }
+
+  .VoucherAppear{
+    position: absolute;
+    height: 10rem;
+    width: 85%;
+    top: 32rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: whitesmoke;
+    padding :5px 5px;
+    z-index: 1;
+    display: none;
+    overflow-y: scroll;
+  }
+  .setvr-1,.setvr-2,.setvr-3,.setvr-4{
+    height: 100%;
+    width: 70%;
+  }
+  .Voucheraligning1{
+    position: relative;
+    height:5rem;
+    width: 100%;
+    margin-bottom:  10px;
+  }
+
+  .btnUse{
+    position: relative;
+    top: -40%;
+    left: 3%;
+    border:1px solid black;
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+
+
+  .PMshow{
+    position: absolute;
+    height: 11rem;
+    background-color: white;
+    width: 85%;
+    left: 50%;
+    top: 32rem;
+    transform: translate(-50%);
+    display: none;
+    z-index: 1;
+    overflow: scroll;
+  }
+  .gcashlogo{
+    height: 6rem;
+    width: 9rem;
+  }
+  .gcashinput{
+    height: 1.5rem;
+    position: relative;
+    bottom: 2rem;
+    display: inline-block;
+    border: 1px solid black;
+    padding:.3rem 3rem;
+    text-align: center;
+    transition:.5s;
+  }
+  .gcashinput:active{
+    background-color: rgb(139, 210, 139);
+  }
+  .paypallogo{
+    height: 6rem;
+    width: 9rem;
+    
+  }
+  #COD{
+    height: 6rem;
+    width: 9rem;
+  }
+
+  .verified{
+    position: absolute;
+    height: 20rem;
+    width: 75%;
+    left: 50%;
+    top: 15rem;
+    transform: translate(-50%);
+    background-color: white;
+    text-align: center;
+    border-radius: 16px;
+    display: none;
+    z-index: 6;
+    box-shadow: 0rem 0rem .5rem,-0rem -0rem .5rem;
+  }
+  .VerfiyBtn{
+    position: relative;
+    top: 8rem;
+    font-size: 1.2rem;
+    padding:10px 1.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .VerifyTxt{
+    position: relative;
+    top: 5rem;
+    width: 12rem;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+  }
+  #blur{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+    background-color: white;
+    opacity: .5;
+    z-index: 5;
+    display: none;
+  }
+}
+
+
+
